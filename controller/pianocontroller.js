@@ -2,7 +2,6 @@ var Piano = require("../models/piano");
 
 const { param, body, validationResult } = require("express-validator");
 
-// Create
 exports.create = [
   // Check validation
   body("id")
